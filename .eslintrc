@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react", "jest"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "semi": "error",
+		"quotes": [2, "single"]
+  }
+}
